@@ -89,10 +89,10 @@ namespace Asuoki_App
                 command = $"python ./py/start_chat.py {nameActiveChat} {port} {2}";
             }
             ProcessStartInfo name_process = new ProcessStartInfo("cmd.exe", "/C" + command); 
-            /*name_process.WindowStyle = ProcessWindowStyle.Hidden;
+            name_process.WindowStyle = ProcessWindowStyle.Hidden;
             name_process.RedirectStandardOutput = true;
             name_process.UseShellExecute = false;
-            name_process.CreateNoWindow = true;*/
+            name_process.CreateNoWindow = true;
             Process new_pocess = Process.Start(name_process);
 
             try
