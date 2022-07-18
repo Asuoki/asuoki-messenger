@@ -15,7 +15,6 @@ using System.Windows.Shapes;
 namespace Asuoki_App
 {
     /// <summary>
-    /// Логика взаимодействия для createChatMenu.xaml
     /// </summary>
     public partial class createChatMenu : Window
     {
