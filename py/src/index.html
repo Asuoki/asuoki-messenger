@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width">
+        <title>Asuoki</title>
+        <link rel="shortcut icon" href="./images/asuoki.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+        <script src="./preload.js"></script>
+        <script src="./node_modules/web3/dist/web3.min.js"></script>
+        <script src="./main.js"></script>
+        <script src="./info.js" ></script> 
+        <script src="https://cdn.jsdelivr.net/gh/ethereumjs/browser-builds/dist/ethereumjs-all/ethereumjs-all-2018-1-17.min.js"></script>
+        <script src="./jsencrypt.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/web3-quorum@0.1.1/dist/web3.min.js"></script>
+</head>
+<body> 
+        <div class="preloader">
+                <div class="preloader__image">
+                        <img class="displayed" src="./images/asuoki.png"  class="photo" alt="" width="250px" height="250px"/>  
+                </div>
+        </div>
+        <div id="rectangle">
+                <div id="okno">
+                        <div class="divideChat">
+                                <div  class="Chat"> </div>
+                        </div>
+                        <div class="container darker">
+                                <p><div id="newMess"></div></p>
+                                <p><div id="dateNowNew"></div></p>
+                        </div>
+                        <div class="container">
+                                        <p> <div id="new"></div></p>
+                                        <p> <div id="date"></div></p>
+                        </div>  
+                </div>
+                <p class="receive"><output name="yourMessage"></output></p>
+                <div id="rectangle1">
+                        <div class="send">
+                                <input name="message" type="text" maxlength="1000" id="message" class="message" class="searchField" placeholder="Write a message" style="width: 654px;" />
+                                <input class="sendMessage" id="sendMessage" type="button" value="Send " style="color: white;" />
+                        </div>
+                         <div class="powered">
+                                <h4><p style="color: white;"> Powered by Asuoki&#169;</p></h4>
+                        
+                        </div>
+                </div>
+        </div>
+        <p style="color: white; margin-left:140px; margin-top: -70px;">My Wallet:</p>
+        <div class="myWallet"> 
+                        <div id="mywalletForHTML" style="color: black; margin-top: 0.550em;"></div>
+        </div>
+        <script type="text/javascript">
+                console.log("Connect Web3")
+                console.log("All lib connect")
+                var web3
+                let address_owner
+                var lastItem;
+                var ready_nonce;
+                var lastNonce
+                var globalNonce
+                var Now = new Date().toLocaleTimeString();
+                create_connection()
+                function create_connection() {
+                        web3 = new Web3(new Web3.providers.HttpProvider(`http://127.0.0.1:${JSONRPC_PORT}`));
+                        console.log("Connect with JSON-RPC");
+                        var privateKey = ethereumjs.Util.toBuffer(PRIVATE_KEY_OWNER, 'hex');
+                        let address = web3.eth.accounts.privateKeyToAccount(PRIVATE_KEY_OWNER);
+                        address_owner = address.address;
+                        document.getElementById("mywalletForHTML").innerHTML = address_owner;
+                }
+                create_connection()
+
+                async function getLastNonce() {
+                        var lastNumber = await web3.eth.getBlockNumber()
+                        for (var i = 0; i < lastNumber; i++) {
+                                var block = (await web3.eth.getBlock(i))
+                                console.log("Check_block" + block.number)
+                                var lastTx = block.transactions;
+                                if(lastTx != 0) {
+                                        var lastTxFromAllBlock = await web3.eth.getTransaction(lastTx[0])
+                                        lastNonce = lastTxFromAllBlock.nonce
+                                }
+                        }
+                }
+                getLastNonce()
+                sendMessage.onclick = function() {
+                        var encrypt = new JSEncrypt();
+                        encrypt.setPublicKey(RSA_PUBLIC_KEY);
+                        var messegeString = document.getElementById('message').value;
+                        var encrypted = encrypt.encrypt(messegeString);
+                        var signature = (web3.eth.accounts.sign(encrypted, PRIVATE_KEY_OWNER)).signature
+                        console.log(signature)
+                        signature=signature.substr(2, signature.length)
+                        var new_message = '0x'+signature.length+'!22!'+signature+encrypted
+                        
+                        async function getNonce() {
+                                if(typeof lastNonce  != 'undefined'){
+                                        if(typeof globalNonce  == 'undefined'){
+                                                globalNonce = lastNonce;
+                                        }
+                                        globalNonce=globalNonce+1
+                                        ready_nonce = '0x' + ((globalNonce).toString(16))
+                                } else {
+                                        var nonce = await web3.eth.getTransactionCount(address_owner);
+                                        if(typeof nonce == 'undefined') {
+                                                nonce = await web3.eth.getTransactionCount(address_owner);
+                                        }
+                                        nonce=nonce+1
+                                        ready_nonce = '0x' + ((nonce).toString(16))
+                                }
+                        }
+                        getNonce()
+                        var rawTx = {
+                                nonce: ready_nonce,
+                                from: address_owner,
+                                gas: "0x186a0",
+                                gasPrice: '0x3b9aca00',
+                                gasLimit: '0x77359400',
+                                to: ADDR_TO,
+                                data: new_message
+                        }
+                        var tx = new ethereumjs.Tx(rawTx, {'chain':'ropsten'});
+                        var privateKey = ethereumjs.Util.toBuffer(PRIVATE_KEY_OWNER, 'hex');
+                        tx.sign(privateKey);
+                        async function sendNewMessage(tx) {
+                                let promise = new Promise((resolve, reject) => {
+                                        let a = web3.eth.sendSignedTransaction('0x' + (tx).toString('hex'));
+                                });
+                                let result = await promise; 
+                        }
+                        sendNewMessage(tx.serialize())
+                        document.getElementById("new").innerHTML = messegeString;
+                        document.getElementById("date").innerHTML = Now;
+                }
+                async function checkNewMessage() {
+                        lastItem = newMessage[newMessage.length - 1];
+                        document.getElementById("newMess").innerHTML = lastItem;
+                        document.getElementById("dateNowNew").innerHTML = Now;
+                }
+                setInterval(() => {
+                    checkNewMessage();
+                }, 2000);
+        </script>
+        
+</body>
+</html>

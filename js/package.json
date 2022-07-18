@@ -1,0 +1,24 @@
+{
+  "name": "asuoki-messenger",
+  "version": "0.1.0",
+  "description": "Asuoki Messenger is a privacy-focused messenger powered by blockchain technology.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asuoki/asuoki-messenger.git"
+  },
+  "author": "@knstntn.asuoki.eth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Asuoki/asuoki-messenger/issues"
+  },
+  "homepage": "https://github.com/Asuoki/asuoki-messenger#readme",
+  "dependencies": {
+    "ethereum-keystore": "^0.0.3",
+    "ethereumjs-wallet": "^1.0.2",
+    "fs-extra": "^10.1.0"
+  }
+}

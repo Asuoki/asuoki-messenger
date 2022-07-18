@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Asuoki_App</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>img\asuoki.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="asuoki.png" />
+    <None Remove="buttoncreate.png" />
+    <None Remove="Create New Chat.png" />
+    <None Remove="CreateBut.png" />
+    <None Remove="createNew.png" />
+    <None Remove="img\asuoki.ico" />
+    <None Remove="img\asuoki.png" />
+    <None Remove="img\buttoncreate.png" />
+    <None Remove="img\closeNewChat.png" />
+    <None Remove="img\Create New Chat.png" />
+    <None Remove="img\CreateBut.png" />
+    <None Remove="img\createNew.png" />
+    <None Remove="img\Create_but_grid.png" />
+    <None Remove="img\delete_chat.png" />
+    <None Remove="img\f.png" />
+    <None Remove="img\LocalFiles.png" />
+    <None Remove="img\mem.png" />
+    <None Remove="img\new_wallet.png" />
+    <None Remove="img\QR-settings.png" />
+    <None Remove="img\Qr.png" />
+    <None Remove="img\RSA.png" />
+    <None Remove="img\searchIcon.png" />
+    <None Remove="img\SettingsIcon.png" />
+    <None Remove="img\ShowQR.png" />
+    <None Remove="img\Upload.png" />
+    <None Remove="img\Прямоугольник, скругл. углы 3.png" />
+    <None Remove="Qr.png" />
+    <None Remove="searchIcon.png" />
+    <None Remove="SettingsIcon.png" />
+    <None Remove="img\settingsbut.png" />
+    <None Remove="img\closebut.png" />
+    <None Remove="Прямоугольник, скругл. углы 3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="img\asuoki.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\asuoki.ico" />
+    <Resource Include="img\asuoki.png" />
+    <Resource Include="img\buttoncreate.png" />
+    <Resource Include="img\closeNewChat.png" />
+    <Resource Include="img\Create New Chat.png" />
+    <Resource Include="img\CreateBut.png" />
+    <Resource Include="img\createNew.png" />
+    <Resource Include="img\Create_but_grid.png" />
+    <Resource Include="img\delete_chat.png" />
+    <Resource Include="img\f.png" />
+    <Resource Include="img\LocalFiles.png" />
+    <Resource Include="img\mem.png" />
+    <Resource Include="img\new_wallet.png" />
+    <Resource Include="img\QR-settings.png" />
+    <Resource Include="img\Qr.png" />
+    <Resource Include="img\RSA.png" />
+    <Resource Include="img\searchIcon.png" />
+    <Resource Include="img\settingsicon.png" />
+    <Resource Include="img\ShowQR.png" />
+    <Resource Include="img\Upload.png" />
+    <Resource Include="img\WinModeBut.png" />
+    <Resource Include="img\ColBut.png" />
+    <Resource Include="img\ExitBut.png" />
+    <Resource Include="img\settingsbut.png" />
+    <Resource Include="img\closebut.png" />
+    <Resource Include="img\Прямоугольник, скругл. углы 3.png" />  </ItemGroup>
+
+</Project>

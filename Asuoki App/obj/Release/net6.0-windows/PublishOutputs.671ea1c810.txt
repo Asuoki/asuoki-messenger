@@ -1,0 +1,5 @@
+D:\Kostya\Programm\asuoki-release\Asuoki App.exe
+D:\Kostya\Programm\asuoki-release\Asuoki App.dll
+D:\Kostya\Programm\asuoki-release\Asuoki App.deps.json
+D:\Kostya\Programm\asuoki-release\Asuoki App.runtimeconfig.json
+D:\Kostya\Programm\asuoki-release\Asuoki App.pdb

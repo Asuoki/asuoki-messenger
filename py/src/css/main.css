@@ -1,0 +1,310 @@
+                body {
+                        font-family: "Helvetica Neue", Helvetica, sans-serif;
+                        font-size: 20px;
+                        font-weight: normal;
+                        max-width: 450px;
+                        -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+                        zoom: 0.8; /* Other non-webkit browsers */
+                        zoom: 85%; /* Webkit browsers */
+                        display: flex;
+                        flex-direction: column;
+                        background-color: var(--page-background);
+                        background: #2a2a2a ;
+                }
+
+                .myWallet{
+                        font-size: 50%;
+                        margin-top: -5px;
+                        margin-left: 140px;
+                        width: 400px;
+                        height: 30px;
+                        background: #ffffff;
+                        border: none;
+                        -webkit-appearance: none;
+                        -ms-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;
+                        
+                        text-align: center;
+                        border-radius: 10px;
+                        
+                        font-size: 14px;
+                }
+                .myWalletInside {
+                        
+                }
+                .privKey{
+                        padding:10px;
+                        border-radius:10px;
+                        font-size: 14px;
+                        
+                }
+                .privKey input {
+                        border: none;
+                        -webkit-appearance: none;
+                        -ms-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;
+                        background: #f2f2f2;
+                        padding: 12px;
+                        border-radius: 3px;
+                        width: 250px;
+                        font-size: 14px;
+                } 
+                
+                .send {
+                                background: #2a2a2a ;
+                                top: -25px;
+                                margin-top: 8px; 
+                                margin-left: 70px;
+                                bottom: 40px;
+                                /*margin-top: 620px;*/
+
+
+                }
+                .receive {
+                                background: var(--receive-bg);
+                                color: black;
+                                align-self: flex-start;
+                                        
+                                &:before {
+                                        left: -7px;
+                                width: 20px;
+                                background-color: var(--receive-bg);
+                                        border-bottom-right-radius: 16px 14px;
+                                }
+
+                                &:after {
+                                        left: -26px;
+                                width: 26px;
+                                background-color: var(--page-background);
+                                        border-bottom-right-radius: 10px;
+                                }
+                }
+                /*
+                border-radius: 9px;
+                border: 4px groove;
+                position: static;
+                border-color: black;*/
+                #rectangle {
+                    width: 800px;
+                    height: 1045px;
+                    background: #2a2a2a ;
+                    border-right-color: #4f5254; /* Цвет линии справа */
+                    border-right-style: solid; /* Стиль линии */
+                    border-right-width: 3,5px; /* Толщина линии */
+                    border-left-color: #4f5254; /* Цвет линии слева */
+                    border-left-style: solid; /* Стиль линии */
+                    border-left-width: 3,5px;
+                    margin-left: 595px;
+                    /*margin-right: 230px;*/
+                    margin-top:0;
+                    margin-bottom: 0;
+                }
+                #rectangle1 {
+                        width: 800px;
+                        height: 150px;
+                        background: #2a2a2a;
+                        margin-top: -20px;
+                        margin-left: -3px;
+                        border-right-color: #4f5254; /* Цвет линии справа */
+                        border-right-style: solid; /* Стиль линии */
+                        border-right-width: 3,5px; /* Толщина линии */
+                        border-left-color: #4f5254; /* Цвет линии слева */
+                        border-left-style: solid; /* Стиль линии */
+                        border-left-width: 3,5px;
+                }
+                #rectangle2 {
+                    width: 300px;
+                    height: 150px;
+                    background: #373737;
+                    border: 4px groove;
+                    margin-left: -320px;
+                    border-radius: 9px;
+                    border-color: black;
+                }
+                .nonce {
+                        font-size: 70%;
+                        margin-left: 100px;
+                        background: ;
+                        top: -20px; 
+                        bottom: 50px;
+                }
+                .Chat {
+
+                        font-size: 70%;
+                        margin-left: -50px;
+                        text-align: center;
+                        margin-top: 20px;
+                }
+                #okno {
+                        width: 800px;
+                        height: 900px;
+                        background: #2a2a2a;
+                        margin-left: 0px;
+                        border-bottom-color: #4f5254; /* Цвет линии справа */
+                        border-bottom-style: solid; /* Стиль линии */
+                        border-bottom-width: 3,5px;
+                        margin-top: -29px;
+                }  
+
+                /* Chat containers */
+                .container {
+                        /*margin-top: 20%;*/
+                        border-color: #ccc;
+                        background-color: #f1f1f1;
+                        border-radius: 10px;
+                        padding: 10px;
+                        margin-top: 15px;
+                        width: 615px;
+                        margin-left: 140px;
+                        margin-right: 20px;
+                  
+                }
+
+                /* Darker chat container */
+                .darker {
+                        /*margin-top: 20%;*/
+                        border-color: #ccc;
+                        background-color: #ddd;
+                        width: 615px;
+                        margin-left: 20px;
+                        margin-right: 140px;
+                        border-radius: 10px;
+                }
+
+                /* Clear floats */
+                .container::after {
+                        content: "";
+                        clear: both;
+                        display: table;
+                }
+                
+                .time-right {
+                  float: left;
+                  color: #aaa;
+                }
+
+                /* Style time text */
+                .time-left {
+                  float: left;
+                  color: #999;
+                }
+                
+                .preloader {
+                  position: fixed;
+                  left: 0;
+                  top: 0;
+                  right: 0;
+                  bottom: 0;
+                  overflow: hidden;
+                  background: #fff;
+                  z-index: 1001;
+                  background: #2a2a2a ;
+                }
+
+                .preloader__image {
+                  position: relative;
+                  
+                  margin-top: 370px;
+                  
+                  background: #2a2a2a ;
+                  text-align: center;
+                }
+
+                .loaded_hiding .preloader {
+                  
+                }
+
+                .loaded .preloader {
+                  display: none;
+                }
+                .powered {
+                        text-align: center;
+                        margin-top: 75px;
+                           
+                }
+                .sendMessage{
+                        background-color: #ba85b7;
+                        border: none;
+                        
+                        padding: 5px 15px;
+                        text-align: center;
+                        font-size: 16px;
+                        margin: 4px 2px;
+                        margin-top: 8px;
+                        
+                        transition: 0.3s;
+                        display: inline-block;
+                        text-decoration: none;
+                        cursor: pointer;
+                        border: 2px solid #ba85b7;
+                        border-radius: 15px;
+                        width: 85px;
+                        height: 40px;
+                }
+                      
+                
+                .message{
+                        padding:10px;
+                        border-radius:15px;
+                        font-size: 14px;
+                        position: relative;
+                        margin-left: -55px;
+                        margin-top: 20px;
+
+                }
+                .message input {
+                        border: none;
+                        -webkit-appearance: none;
+                        -ms-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;
+                        background: #f2f2f2;
+                        padding: 12px;
+                        border-radius: 3px;
+                        width: 250px;
+                        font-size: 14px;
+                }  
+                .chatAddress{
+                        padding:10px;
+                        border-radius:10px;
+                        font-size: 14px;
+                        position: relative;
+                        margin-left: 70px;
+                        margin-top: 10px;
+                }
+                .chatAddress input {
+                        border: none;
+                        -webkit-appearance: none;
+                        -ms-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;
+                        background: #f2f2f2;
+                        padding: 12px;
+                        border-radius: 3px;
+                        width: 250px;
+                        font-size: 14px;
+                        
+                }
+                .divideChat {
+                        font-size: 70%;
+                        text-align: center;
+                        margin-top: 10px;
+                        background: #2a2a2a;
+                        width: 800px;
+                        border-bottom-color: #4f5254; /* Цвет линии справа */
+                        border-bottom-style: solid; /* Стиль линии */
+                        border-bottom-width: 3,5px;
+                        border-right-color: #4f5254; /* Цвет линии справа */
+                        border-right-style: solid; /* Стиль линии */
+                        border-right-width: 3,5px; /* Толщина линии */
+                        border-left-color: #4f5254; /* Цвет линии слева */
+                        border-left-style: solid; /* Стиль линии */
+                        border-left-width: 3,5px;
+                        margin-left: -3px;
+                }
+                #qr {
+                        margin-top: -1050px;
+                        margin-left: 140px;
+                }

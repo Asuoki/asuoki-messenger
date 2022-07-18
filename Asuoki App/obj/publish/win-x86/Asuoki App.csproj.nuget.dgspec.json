@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Kostya\\Programm\\ASUOKIMAIN\\asuoki-messenger\\Asuoki App\\Asuoki App.csproj": {}
+  },
+  "projects": {
+    "D:\\Kostya\\Programm\\ASUOKIMAIN\\asuoki-messenger\\Asuoki App\\Asuoki App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Kostya\\Programm\\ASUOKIMAIN\\asuoki-messenger\\Asuoki App\\Asuoki App.csproj",
+        "projectName": "Asuoki App",
+        "projectPath": "D:\\Kostya\\Programm\\ASUOKIMAIN\\asuoki-messenger\\Asuoki App\\Asuoki App.csproj",
+        "packagesPath": "C:\\Users\\Костя Ключников\\.nuget\\packages\\",
+        "outputPath": "D:\\Kostya\\Programm\\ASUOKIMAIN\\asuoki-messenger\\Asuoki App\\obj\\publish\\win-x86\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Костя Ключников\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

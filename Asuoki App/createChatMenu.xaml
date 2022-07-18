@@ -1,0 +1,12 @@
+﻿<Window x:Class="Asuoki_App.createChatMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Asuoki_App"
+        mc:Ignorable="d"
+        Title="createChatMenu" Height="520" Width="420">
+    <Grid Background="#FF222222">
+        
+    </Grid>
+</Window>

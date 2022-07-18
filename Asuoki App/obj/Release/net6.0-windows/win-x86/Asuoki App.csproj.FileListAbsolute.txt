@@ -1,0 +1,77 @@
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\bin\Release\net6.0-windows\win-x86\Asuoki App.exe
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\bin\Release\net6.0-windows\win-x86\Asuoki App.deps.json
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\bin\Release\net6.0-windows\win-x86\Asuoki App.runtimeconfig.json
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\bin\Release\net6.0-windows\win-x86\Asuoki App.dll
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\bin\Release\net6.0-windows\win-x86\Asuoki App.pdb
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.csproj.AssemblyReference.cache
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\createChatMenu.g.cs
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\loader.g.cs
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\MainWindow.g.cs
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\App.g.cs
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App_MarkupCompile.cache
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App_MarkupCompile.lref
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\createChatMenu.baml
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\loader.baml
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\MainWindow.baml
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.g.resources
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.AssemblyInfoInputs.cache
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.AssemblyInfo.cs
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.csproj.CoreCompileInputs.cache
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.dll
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\refint\Asuoki App.dll
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.pdb
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.genruntimeconfig.cache
+D:\Kostya\Programm\GITHUB\asuoki\Asuoki App\obj\Release\net6.0-windows\win-x86\ref\Asuoki App.dll
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\bin\Release\net6.0-windows\win-x86\Asuoki App.exe
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\bin\Release\net6.0-windows\win-x86\Asuoki App.deps.json
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\bin\Release\net6.0-windows\win-x86\Asuoki App.runtimeconfig.json
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\bin\Release\net6.0-windows\win-x86\Asuoki App.dll
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\bin\Release\net6.0-windows\win-x86\Asuoki App.pdb
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.csproj.AssemblyReference.cache
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\createChatMenu.g.cs
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\loader.g.cs
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\MainWindow.g.cs
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\App.g.cs
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App_MarkupCompile.cache
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App_MarkupCompile.lref
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\createChatMenu.baml
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\loader.baml
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\MainWindow.baml
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.g.resources
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.AssemblyInfoInputs.cache
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.AssemblyInfo.cs
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.csproj.CoreCompileInputs.cache
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.dll
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\refint\Asuoki App.dll
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.pdb
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.genruntimeconfig.cache
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\ref\Asuoki App.dll
+D:\Kostya\Programm\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App_Content.g.cs
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\bin\Release\net6.0-windows\win-x86\Asuoki App.exe
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\bin\Release\net6.0-windows\win-x86\Asuoki App.deps.json
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\bin\Release\net6.0-windows\win-x86\Asuoki App.runtimeconfig.json
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\bin\Release\net6.0-windows\win-x86\Asuoki App.dll
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\bin\Release\net6.0-windows\win-x86\Asuoki App.pdb
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.csproj.AssemblyReference.cache
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\createChatMenu.g.cs
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\loader.g.cs
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\MainWindow.g.cs
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\App.g.cs
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App_Content.g.cs
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App_MarkupCompile.cache
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App_MarkupCompile.lref
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\createChatMenu.baml
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\loader.baml
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\MainWindow.baml
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.g.resources
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.AssemblyInfoInputs.cache
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.AssemblyInfo.cs
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.csproj.CoreCompileInputs.cache
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.dll
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\refint\Asuoki App.dll
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.pdb
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\Asuoki App.genruntimeconfig.cache
+D:\Kostya\Programm\ASUOKIMAIN\asuoki-messenger\Asuoki App\obj\Release\net6.0-windows\win-x86\ref\Asuoki App.dll
