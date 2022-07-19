@@ -2,7 +2,7 @@
 // HSD - Successful
 // HASD - ERROR
 //
-
+//ya ustal git vonuchiy
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -42,7 +42,7 @@ namespace Asuoki_App
         static string[] data = File.ReadAllLines("./asuoki-data/allContact.db");
         ObservableCollection<string> dataUser = new ObservableCollection<string>(data);
         ObservableCollection<string> activeChat = new ObservableCollection<string>();
-        public string fileName; 
+        public string fileName;
         public string nameChat;
         public string nameProcess;
         public string nameActiveChat;
@@ -63,12 +63,12 @@ namespace Asuoki_App
         {
             DateTime now = DateTime.Now;
             DateTime Task1 = new DateTime(10);
-            logo_connect.Visibility = Visibility.Hidden; 
-            
+            logo_connect.Visibility = Visibility.Hidden;
+
 
             Active.Visibility = Visibility.Visible;
             activeChatGrid.Visibility = Visibility.Hidden;
-            startHttp(); 
+            startHttp();
             //loaderPage.Visibility = Visibility.Visible;
             //Task.Delay(5000).Wait();
             //loaderPage.Visibility = Visibility.Hidden;
@@ -83,12 +83,12 @@ namespace Asuoki_App
             if(password_string == "asuoki")
             {
                 command = $"python ./py/start_chat.py {nameActiveChat} {port} {3}";
-            } 
+            }
             else
             {
                 command = $"python ./py/start_chat.py {nameActiveChat} {port} {2}";
             }
-            ProcessStartInfo name_process = new ProcessStartInfo("cmd.exe", "/C" + command); 
+            ProcessStartInfo name_process = new ProcessStartInfo("cmd.exe", "/C" + command);
             name_process.WindowStyle = ProcessWindowStyle.Hidden;
             name_process.RedirectStandardOutput = true;
             name_process.UseShellExecute = false;
@@ -98,7 +98,7 @@ namespace Asuoki_App
             try
             {
                 diconnectChatList.Insert(count, listChat.SelectedItem.ToString());
-                
+
             }
             catch (Exception e)
             {
@@ -147,7 +147,7 @@ namespace Asuoki_App
                     processList[i].Kill();
                     Trace.WriteLine("HSD Good Kill");
                     activeChat.Remove(kill_process);
-                   
+
                 }
             }
         }
@@ -176,7 +176,7 @@ namespace Asuoki_App
         }
         private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            nameProcess = listChat.SelectedItem.ToString(); 
+            nameProcess = listChat.SelectedItem.ToString();
             createNewChatGrid.Visibility = Visibility.Hidden;
             selectChatGrid.Visibility = Visibility.Hidden;
             logo_connect.Visibility = Visibility.Visible;
@@ -184,7 +184,7 @@ namespace Asuoki_App
             activeChatGrid.Visibility = Visibility.Hidden;
         }
 
-        private void selectFileClick(object sender, RoutedEventArgs e) 
+        private void selectFileClick(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             if (openFileDialog.ShowDialog() == true)
@@ -195,7 +195,7 @@ namespace Asuoki_App
         private void createNewChatButton(object sender, RoutedEventArgs e)
         {
             int port = rnd.Next(9000, 10000);
-            var nameFolder = nameInput.Text; 
+            var nameFolder = nameInput.Text;
             string command = $"python ./py/create_new_chat.py {fileName} {nameFolder} {port} {password_string}";
             ProcessStartInfo createNewChat = new ProcessStartInfo("cmd.exe", "/C" + command);
             createNewChat.WindowStyle = ProcessWindowStyle.Hidden;
@@ -203,10 +203,10 @@ namespace Asuoki_App
             createNewChat.UseShellExecute = false;
             createNewChat.CreateNoWindow = true;
             System.Diagnostics.Process.Start(createNewChat);
-            dataUser.Insert(0, nameFolder); 
+            dataUser.Insert(0, nameFolder);
             activeChatGrid.Visibility = Visibility.Hidden;
         }
-        
+
 
         private void exitApp(object sender, RoutedEventArgs e)
         {
@@ -221,7 +221,7 @@ namespace Asuoki_App
                 case (WindowState.Maximized):
                     WindowState = WindowState.Normal;
                     break;
-                     
+
                 case (WindowState.Normal):
                     WindowState = WindowState.Maximized;
                     break;
@@ -280,7 +280,7 @@ namespace Asuoki_App
 
         void newRsaKeyClick(object sender, RoutedEventArgs e)
         {
-            string command = $"python ./py/create_new_rsa_key.py"; 
+            string command = $"python ./py/create_new_rsa_key.py";
             ProcessStartInfo create_new_rsa_key = new ProcessStartInfo("cmd.exe", "/C" + command);
             create_new_rsa_key.WindowStyle = ProcessWindowStyle.Hidden;
             create_new_rsa_key.RedirectStandardOutput = true;
@@ -315,14 +315,14 @@ namespace Asuoki_App
         }
         void showLocalFilesClick(object sender, RoutedEventArgs e)
         {
-            string command = $"explorer .\\asuoki-data"; 
+            string command = $"explorer .\\asuoki-data";
             ProcessStartInfo showLocalFiles = new ProcessStartInfo("cmd.exe", "/C" + command);
             showLocalFiles.WindowStyle = ProcessWindowStyle.Hidden;
             showLocalFiles.RedirectStandardOutput = true;
             showLocalFiles.UseShellExecute = false;
             showLocalFiles.CreateNoWindow = true;
             System.Diagnostics.Process.Start(showLocalFiles);
-            
+
         }
         void clearCacheClick(object sender, RoutedEventArgs e)
         {
